@@ -1,5 +1,5 @@
 
-import Logo from '../assets/Logo.png'
+
 import { Link } from 'react-router-dom'
 import { Card } from '../components'
 import { useEffect, useState } from 'react'

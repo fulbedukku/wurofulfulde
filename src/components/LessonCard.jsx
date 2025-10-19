@@ -8,19 +8,19 @@ export const LessonCard = ({ cat }) => {
 
   switch (cat.toLowerCase()) {
     case "conversations":
-      image = "/wurofulfulde/src/assets/conversations.jpg";
+      image = "assets/conversations.jpg";
       description = "Lessons on everyday conversations in Fulfulde, including greetings, introductions, and common phrases.";
       break;
     case "grammar":
-      image = "/wurofulfulde/src/assets/grammar.jpg";
+      image = "assets/grammar.jpg";
       description = "Lessons on Fulfulde grammar topics such as verb conjugation, noun classes, sentence structure, and common grammatical rules.";
       break;
     case "song and poetry":
-      image = "/wurofulfulde/src/assets/song_and_poetry.jpg";
+      image = "assets/song_and_poetry.jpg";
       description = "Lessons on traditional and contemporary Fulfulde songs and poetry, including lyrics, meanings, and cultural context.";
       break;
     default:
-      image = "/wurofulfulde/src/assets/grammar.jpg";
+      image = "assets/grammar.jpg";
       description = "Explore various Fulfulde lessons across different categories to enhance your language skills.";
   }
 

@@ -5,7 +5,7 @@ const resources = [
   {
     title: 'Why Fulfulde?',
     color: 'bg-teal-600',
-     image: 'src/assets/grammar.jpg', // replace with your image
+     image: 'assets/grammar.jpg', // replace with your image
     description:
       ' Why is Fulfulde important? Who speaks the langauge, and why would anyone want to learn it',
     level: 'Level: A1–B2',
@@ -15,7 +15,7 @@ const resources = [
   {
     title: 'Pathways to Learning',
     color: 'bg-sky-600',
-    image: 'src/assets/demngal_men.jpg',
+    image: 'assets/demngal_men.jpg',
     description:
       'We are going to explore different pathways to learning Fulfulde, including formal education, self-study, and community engagement.',
     level: 'Level: B1–C2',
@@ -25,7 +25,7 @@ const resources = [
   {
     title: 'Mythbusters',
     color: 'bg-amber-500',
-    image: 'src/assets/grammar.jpg',
+    image: 'assets/grammar.jpg',
     description:
       'There are many myths and misconceptions about the Fulfulde language and its speakers. Let’s debunk some of the most common ones.',
     level: 'Suitable for all levels',
@@ -35,7 +35,7 @@ const resources = [
   {
     title: 'Course Finder',
     color: 'bg-rose-600',
-    image: 'src/assets/demngal_men.jpg',
+    image: 'assets/demngal_men.jpg',
     description:
       'How do you learn Fulfulde? Why would you even want to? Isn’t it a dying language? Find answers to these questions and more.',
     level: 'Suitable for all levels',

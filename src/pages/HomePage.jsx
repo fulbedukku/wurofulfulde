@@ -6,7 +6,7 @@ const resources = [
   {
     title: 'Learn',
     color: 'bg-teal-600',
-     image: '/wurofulfulde/src/assets/grammar.jpg', // replace with your image
+     image: 'assets/grammar.jpg', // replace with your image
     description:
       'Structured courses to learn Fulfulde online. Suitable for absolute beginners and beyond, all completely free.',
     level: 'Level: A1–B2',
@@ -16,7 +16,7 @@ const resources = [
   {
     title: 'Watch & Listen',
     color: 'bg-sky-600',
-    image: 'src/assets/demngal_men.jpg',
+    image: 'assets/demngal_men.jpg',
     description:
       'Audio and video recordings of Fulfulde, most with transcriptions and translations. Ideal to aid learning, or just sit back and enjoy.',
     level: 'Level: B1–C2',
@@ -26,7 +26,7 @@ const resources = [
   {
     title: 'Reference',
     color: 'bg-amber-500',
-    image: '/wurofulfulde/src/assets/grammar.jpg',
+    image: 'assets/grammar.jpg',
     description:
       'To Add Reference materials, including a searchable dictionary with sound files, grammar guides, pronunciation help, and more.',
     level: 'Suitable for all levels',
@@ -36,7 +36,7 @@ const resources = [
   {
     title: 'How & Why?',
     color: 'bg-rose-600',
-    image: '/wurofulfulde/src/assets/demngal_men.jpg',
+    image: 'assets/demngal_men.jpg',
     description:
       'How do you learn Fulfulde? Why would you even want to? Isn’t it a dying language? Find answers to these questions and more.',
     level: 'Suitable for all levels',
