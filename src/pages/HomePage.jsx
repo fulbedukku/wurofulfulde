@@ -79,7 +79,7 @@ export const HomePage = () => {
             </div>
             <Link to={item.link}>
             {item.image && (
-              <img src={item.image} alt={item.title} className="w-full h-40 object-cover" />
+              <img src={`${import.meta.env.BASE_URL}item.image`} alt={item.title} className="w-full h-40 object-cover" />
             )}
             </Link>
             <div className="p-5 text-gray-700">
