@@ -9,7 +9,7 @@ export const LessonDetailPage = () => {
   const [lesson, setLesson] = useState(null)
 
   useEffect(() => {
-    fetch('/wurofulfulde/fulfulde_lessons.json')
+    fetch('/fulfulde_lessons.json')
       .then(res => res.json())
       .then(data => {
         const found = data.find(item => item.lesson_title === decodeURIComponent(title))

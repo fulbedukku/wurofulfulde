@@ -9,7 +9,7 @@ export const LessonSubcategoryList = () => {
   const [subcategories, setSubcategories] = useState([])
 
   useEffect(() => {
-    fetch('/wurofulfulde/fulfulde_lessons.json')
+    fetch('/fulfulde_lessons.json')
       .then(res => res.json())
       .then(data => {
         const filtered = data.filter(item => item.lcategory === category)

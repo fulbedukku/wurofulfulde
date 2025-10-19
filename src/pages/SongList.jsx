@@ -5,7 +5,7 @@ export const SongList = () => {
   const [songs, setSongs] = useState([]);
 
   useEffect(() => {
-    fetch('/wurofulfulde/gimi_bappa_nasiru.json')
+    fetch('/gimi_bappa_nasiru.json')
       .then(response => response.json())
       .then(data => setSongs(data))
       .catch(error => console.error('Error fetching songs:', error));

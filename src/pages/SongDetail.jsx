@@ -8,7 +8,7 @@ export const SongDetail = () => {
   const [song, setSong] = useState(null);
 
   useEffect(() => {
-    fetch('/wurofulfulde/gimi_bappa_nasiru.json')
+    fetch('/gimi_bappa_nasiru.json')
       .then(response => response.json())
       .then(data => {
         const foundSong = data.find(s => s.title === decodeURIComponent(title));
