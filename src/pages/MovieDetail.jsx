@@ -8,7 +8,7 @@ export const MovieDetail = () => {
   const [movie, setMovie] = useState(null)
 
   useEffect(() => {
-    fetch('/gimi_bappa_nasiru.json')
+    fetch(`${process.env.PUBLIC_URL}/gimi_bappa_nasiru.json`)
       .then((res) => {
         if (!res.ok) throw new Error('Network response was not ok')
         return res.json()

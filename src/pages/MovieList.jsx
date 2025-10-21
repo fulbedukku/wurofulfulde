@@ -9,7 +9,7 @@ export const MovieList = () => {
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
-    fetch('/gimi_bappa_nasiru.json')
+    fetch(`${process.env.PUBLIC_URL}/gimi_bappa_nasiru.json`)
       .then(response => response.json())
       .then(data => setMovies(data))
       .catch(error => console.error('Error fetching movies:', error));

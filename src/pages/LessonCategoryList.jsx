@@ -8,7 +8,7 @@ export const LessonCategoryList = () => {
     const [categories, setCategories] = useState([])
 
   useEffect(() => {
-    fetch('/fulfulde_lessons.json')
+    fetch(`${process.env.PUBLIC_URL}/fulfulde_lessons.json`)
       .then(res => res.json())
       .then(data => {
         const unique = [...new Set(data.map(item => item.lcategory))]
