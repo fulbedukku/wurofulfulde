@@ -9,7 +9,7 @@ export const LessonSubcategoryList = () => {
   const [subcategories, setSubcategories] = useState([])
 
   useEffect(() => {
-    fetch(`${process.env.PUBLIC_URL}/fulfulde_lessons.json`)
+    fetch(`${import.meta.env.BASE_URL}assets/fulfulde_lessons.json`)
       .then(res => res.json())
       .then(data => {
         const filtered = data.filter(item => item.lcategory === category)

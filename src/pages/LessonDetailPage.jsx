@@ -9,7 +9,7 @@ export const LessonDetailPage = () => {
   const [lesson, setLesson] = useState(null)
 
   useEffect(() => {
-    fetch(`${process.env.PUBLIC_URL}/fulfulde_lessons.json`)
+    fetch(`${import.meta.env.BASE_URL}assets/fulfulde_lessons.json`)
       .then(res => res.json())
       .then(data => {
         const found = data.find(item => item.lesson_title === decodeURIComponent(title))

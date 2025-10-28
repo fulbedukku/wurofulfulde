@@ -8,7 +8,7 @@ export const SongDetail = () => {
   const [song, setSong] = useState(null);
 
   useEffect(() => {
-    fetch(`${process.env.PUBLIC_URL}/gimi_bappa_nasiru.json`)
+    fetch(`${import.meta.env.BASE_URL}assets/gimi_bappa_nasiru.json`)
       .then(response => response.json())
       .then(data => {
         const foundSong = data.find(s => s.title === decodeURIComponent(title));
