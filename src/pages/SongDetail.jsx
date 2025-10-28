@@ -99,6 +99,22 @@ export const SongDetail = () => {
         />
       </section>
 
+<section className="max-w-7xl mx-auto p-4 md:p-7">
+  <div className="rounded-lg shadow-lg overflow-hidden flex flex-col md:flex-row gap-4 md:gap-6">
+    {/* Fulfulde Lyrics */}
+    <div className="w-full md:flex-1 p-6 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200">
+      <h2 className="text-2xl font-bold mb-4">Tonngi</h2>
+      <p className="whitespace-pre-line leading-relaxed">{song.lyrics_fulfulde}</p>
+    </div>
+
+    {/* English Lyrics */}
+    <div className="w-full md:flex-1 p-6 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200">
+      <h2 className="text-2xl font-bold mb-4">Lyrics</h2>
+      <p className="whitespace-pre-line leading-relaxed">{song.lyrics_english}</p>
+    </div>
+  </div>
+</section>
+
 
       {/* Bottom Half */}
       <section className="max-w-7xl mx-auto p-4 md:p-7">
@@ -119,6 +135,7 @@ export const SongDetail = () => {
           </div>
         </div>
       </section>
+
     </main>
   );
 };
