@@ -21,7 +21,7 @@ const resources = [
       'Audio and video recordings of Fulfulde, most with transcriptions and translations. Ideal to aid learning, or just sit back and enjoy.',
     level: 'Level: B1–C2',
     linkText: 'VIEW ALL IN WATCH & LISTEN',
-    link: '#',
+    link: 'songs',
   },
   {
     title: 'Reference',
@@ -57,9 +57,9 @@ export const HomePage = () => {
           <p className="text-lg uppercase tracking-widest opacity-80 mb-2 flex items-center justify-center">
             <Globe className="w-4 h-4 mr-2" /> Saare Fulfulde
           </p>
-          <h1 className="text-5xl md:text-6xl font-extrabold mb-4">
+          <h2 className="text-5xl md:text-6xl font-extrabold mb-4">
             A Home for the Fulfulde Language
-          </h1>
+          </h2>
           <p className="text-xl md:text-2xl font-light max-w-3xl mx-auto">
             We are leveraging digital tools to ensure the rich cultural heritage of Fulfulde endures.
           </p>
@@ -79,7 +79,7 @@ export const HomePage = () => {
             </div>
             <Link to={item.link}>
             {item.image && (
-              <img src={`${import.meta.env.BASE_URL}item.image`} alt={item.title} className="w-full h-40 object-cover" />
+              <img src={`${import.meta.env.BASE_URL}`+ item.image} alt={item.title} className="w-full h-40 object-cover" />
             )}
             </Link>
             <div className="p-5 text-gray-700">

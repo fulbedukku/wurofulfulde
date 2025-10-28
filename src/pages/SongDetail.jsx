@@ -34,7 +34,7 @@ export const SongDetail = () => {
           {/* Left: Image */}
           {/* On small screens, this is full-width. On medium screens and up, it takes half the width. */}
           <div className="w-full md:w-1/2 flex items-center justify-center p-4">
-            <img className="max-h-full max-w-full object-contain rounded-md" src={song.image} alt={song.title} />
+            <img className="max-h-full max-w-full object-contain rounded-md" src={`${import.meta.env.BASE_URL}`+ song.image} alt={song.title} />
           </div>
 
           {/* Right: Song Details */}
