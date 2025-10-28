@@ -105,7 +105,7 @@ export const SongDetail = () => {
         <div className="flex flex-wrap rounded-lg shadow-lg overflow-hidden">
           {/* Fulfulde Lyrics */}
           {/* On small screens, this is full-width. On medium screens and up, it takes half the width. */}
-          <div className="w-full md:w-1/2 p-6 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200">
+          <div className="w-full md:w-1/2 p-6 m-4 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200">
             <h2 className="text-2xl font-bold mb-4">Tonngi</h2>
             <p className="whitespace-pre-line leading-relaxed">{song.lyrics_fulfulde}</p>
           </div>
@@ -113,7 +113,7 @@ export const SongDetail = () => {
           {/* English Lyrics */}
           {/* On small screens, this is full-width. On medium screens and up, it takes half the width. */}
           {/* <div className="w-full md:w-1/2 p-6 bg-gray-50 dark:bg-gray-700 text-gray-700 dark:text-gray-200"></div> */}
-          <div className="w-full md:w-1/2 p-6 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200">
+          <div className="w-full md:w-1/2 p-6 m-4 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200">
             <h2 className="text-2xl font-bold mb-4">Lyrics</h2>
             <p className="whitespace-pre-line leading-relaxed">{song.lyrics_english}</p>
           </div>
