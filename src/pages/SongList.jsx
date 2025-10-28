@@ -3,7 +3,7 @@ import { SongCard } from '../components';
 
 export const SongList = () => {
   const [songs, setSongs] = useState([]);
-
+// bringsongs from gimi_bappa_nasiru.json
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}assets/gimi_bappa_nasiru.json`)
       .then(response => response.json())
